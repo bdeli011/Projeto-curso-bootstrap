@@ -90,6 +90,8 @@ header, .navbar{
     background-color: #3eadcc;
 }
 
+/* Sobre a empresa */
+
 #about-area {
     background-color: #F9F9F9;
   }
@@ -103,11 +105,11 @@ header, .navbar{
   
   .main-title::after {
     content: "";
-    border-top: 2px solid #333;
-    width: 15%;
-    position: absolute;
-    top: 60px;
-    left: 42.5%;
+    border-bottom: 2px solid #333;
+    width: 140px;
+    height: 4px;
+    display: block;
+    margin: 10px auto;
   }
   
   .about-title {
@@ -417,14 +419,17 @@ header, .navbar{
   }
   
   /* responsive */
-  @media(max-width: 768px) {
+
+  @media(max-width: 768) {
     
     /* geral */
+
     .container {
       padding: 20px 0;
     }
     
     /* slider */
+
     #mainSlider .carousel-inner, #mainSlider .carousel-item {
       height: auto;
     }
@@ -494,8 +499,7 @@ header, .navbar{
       font-size: 16px;
     }
   
-  }
-  
+  }  
   
   @media(max-width: 425px) {
   
@@ -574,13 +578,10 @@ header, .navbar{
     }
   
     #call-area p, #call-area #call-btn {
-      font-size: 14px;
+      font-size: 10px;
       letter-spacing: 0;
-    }
-  
-    #call-area p, #call-area #call-btn {
       margin: 0;
-      width: 50%;
+      width: 50%
     }
   
     /* contact */
